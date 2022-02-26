@@ -1,0 +1,25 @@
+{
+  "name": "convertx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "cd server && npm start",
+    "dev:client": "cd client && npm start",
+    "dev": "concurrently npm:dev:server npm:dev:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujiv1204/convertX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujiv1204/convertX/issues"
+  },
+  "homepage": "https://github.com/sujiv1204/convertX#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
